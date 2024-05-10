@@ -5,7 +5,8 @@ async function getCharacters() {
     
 
     var characters = []
-    // TODO: Recorra la lista json obtenida y convierta cada elemento (mapa) en un objeto Character y agreguelo a la lista characters
+    // TODO: Recorra la lista json obtenida y convierta cada elemento (mapa) en un objeto Character y agreguelo a la lista characters.
+    // Llame a la funcion parseJsonToCharacter para cada elemento del recorrido.
     
 
     renderAllCharacters(characters)
